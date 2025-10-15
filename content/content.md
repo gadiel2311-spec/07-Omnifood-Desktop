@@ -129,15 +129,12 @@ Privacy & terms
 
 ##SECTIONS
 
--Navigation
--Hero
--Featured in
--Features
--How it works
--Diets
--Meals (and list of diets)
--CTA
--Pricing
--Gallery
--Testimonials
--Footer
+- logo + Navigation
+  -Hero
+  -Featured in
+  -How it works
+  -Meals (and list of diets)
+  -Testimonials + gallery
+  -Pricing + features
+  -CTA
+  -Footer
