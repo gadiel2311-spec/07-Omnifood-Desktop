@@ -1,36 +1,36 @@
-/* 
-
+/*
+ 
 --01 TYPOGRAPHY SYSTEM
 font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
+ 
 -Font weights:
-
+ 
 -line heights:
 Default: 1
-
-
+ 
+ 
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
+ 
 --- 02 COLORS
-
+ 
 --- COLOR PALETTE
-- Primary: 
+- Primary:
 -Tints:
 -Shades:#fdf2e9
 -Accents:
 -Greys
  #555
  #333
-
+ 
  ---- 05 SHADOWS
-
+ 
  ---- 06 BORDER-RADIUS
-
+ 
  ---- 07 WHITESPACE
  
-
+ 
 */
 
 * {
@@ -47,7 +47,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik";
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -88,6 +88,7 @@ body {
 
   text-decoration: none;
   font-size: 2rem;
+  font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   /* PUT TRANSTITION ON ORIGINAL "STATE */
@@ -95,9 +96,9 @@ body {
 }
 
 .btn--full:link,
-.btn--:visited {
+.btn--full:visited {
   background-color: #e67e22;
-  color: #fff;
+  color: #ffffff;
   margin-right: 1.6rem;
 }
 
@@ -127,4 +128,24 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.delivered-meals {
+  display: flex;
+  margin-top: 8rem;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-imgs img {
+  height: 6.4rem;
+  width: 6.4rem;
+  border-radius: 50%;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
 }
