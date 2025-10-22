@@ -212,8 +212,22 @@
   font-size: 2rem;
   color: #333;
   font-weight: 600;
+  margin-bottom: 3.2rem;
 }
 
-.meal.img {
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.meal-img {
   width: 100%;
 }
