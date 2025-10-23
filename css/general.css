@@ -133,7 +133,8 @@ body {
   border-radius: 9px;
 
   /* Put a transition on original "state" */
-  transition: background-color 0.03s;
+  /* transition: background-color 0.03s; */
+  transition: all 0.3s;
 }
 
 .btn--full:link,
