@@ -137,16 +137,19 @@
 .section-how {
   padding: 9.6rem 0;
 }
+
 .step-number {
   font-size: 8.6rem;
   font-weight: 600;
   color: #ddd;
   margin-bottom: 1.2rem;
 }
+
 .step-description {
   font-size: 1.8rem;
   line-height: 1.8;
 }
+
 .step-img-box {
   position: relative;
 
@@ -154,6 +157,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .step-img-box::before,
 .step-img-box::after {
   content: "";
@@ -174,12 +178,14 @@
   background-color: #fdf2e9;
   z-index: -2;
 }
+
 .step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
   background-color: #fae5d3;
   z-index: -1;
 }
+
 .step-img {
   width: 35%;
 }
@@ -202,8 +208,8 @@
   transform: translateY(-1.2rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
-.meal-content {
-  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+s .meal-content {
+  padding: 3.2rem 4.8rem 4.8rem;
 }
 
 .meal-tags {
@@ -225,11 +231,9 @@
 .tag--vegetarian {
   background-color: #51cf66;
 }
-
 .tag--vegan {
   background-color: #94d82d;
 }
-
 .tag--paleo {
   background-color: #ffd43b;
 }
@@ -240,23 +244,27 @@
   font-weight: 600;
   margin-bottom: 3.2rem;
 }
+
 .meal-attributes {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
+
 .meal-attribute {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
+
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
   color: #e67e22;
 }
+
 .meal-img {
   width: 100%;
 }
@@ -266,30 +274,8 @@
   font-size: 1.8rem;
 }
 
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
-
-.list {
-  list-style: none;
-}
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-.list-icon {
-  width: 3rem;
-  height: 3rem;
-  color: #e67e22;
-}
-
 /****************************/
-/* TESTIMONIAL SECTION */
+/* TESTIMONIALS SECTION */
 /****************************/
 .section-testimonials {
   background-color: #fdf2e9;
@@ -298,7 +284,7 @@
   align-items: center;
 }
 
-.testimonials-container {
+.testimonial-container {
   padding: 9.6rem;
 }
 
@@ -314,6 +300,7 @@
   border-radius: 50%;
   margin-bottom: 1.2rem;
 }
+
 .testimonial-text {
   font-size: 1.8rem;
   line-height: 1.8;
@@ -323,58 +310,58 @@
 .testimonial-name {
   font-size: 1.6rem;
   color: #6f6f6f;
+  font-weight: 600;
 }
-.gallery {
+
+.galery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
-  align-content: center;
 }
-.gallery-item {
+
+.galery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.galery-item {
   overflow: hidden;
 }
 
-.gallery-item img {
-  display: block;
-  width: 100%;
-  transition: all 0.4s;
-}
-
-.gallery-item img:hover {
+.galery-item img:hover {
   transform: scale(1.1);
 }
 
 /****************************/
-/*  PRICING SECTION */
+/* PRICING SECTION */
 /****************************/
 .section-pricing {
   padding: 9.6rem 0;
 }
-
-.princing-plan {
+.pricing-plan {
   border-radius: 11px;
 
   width: 75%;
 }
-
-.princing-plan--starter {
+.pricing-plan--starter {
   justify-self: end;
   border: 2px solid #fdf2e9;
   padding: 4.6rem;
 }
-.princing-plan--complete {
+
+.pricing-plan--complete {
   background-color: #fdf2e9;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
 }
-.princing-plan--complete::after {
-  content: "Best value";
+.pricing-plan--complete::after {
+  content: "Best Value";
   position: absolute;
   top: 6%;
-  right: -18%;
-
+  right: -14%;
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: 700;
@@ -392,14 +379,14 @@
 .plan-name {
   color: #cf711f;
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.75;
-  margin-bottom: 3, 2rem;
+  margin-bottom: 3.2rem;
 }
 
 .plan-price {
-  font-size: 7.4rem;
+  font-size: 6.2rem;
   font-weight: 600;
   color: #333;
   margin-bottom: 1.6rem;
@@ -416,7 +403,28 @@
   color: #6f6f6f;
 }
 
-.plan-sing-up {
+.plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+.feature-icon {
+  color: #e67e22;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #fdf2e9;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
