@@ -31,6 +31,7 @@ Pragraph default: 1.06
 -Accents:
 -Greys:
 #6F6F6F lightes gray allowed on #fdf2e9 only.
+#eb984e,
 #555
 #333
 
@@ -39,6 +40,7 @@ Pragraph default: 1.06
 --- 06 BORDER RADIUS
 Default:9px
 Medium:11px
+ box-shadow: 0 2.4rem 4.8 rgba(0, 0, 0, 0.075);
 
 --- 07 WHITESPACE
 
